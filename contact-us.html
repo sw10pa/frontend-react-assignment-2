@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <!-- Main heading for the page -->
+    <h1>Third Page</h1>
+
+    <!-- Contact customer support form -->
+    <form>
+        <fieldset>
+            <legend>
+                <strong>Contanct Customer Support</strong>
+            </legend>
+
+            <!-- First name and last name fields -->
+            <div>
+                <label for="first_name">First Name:</label>
+                <input type="text" name="first_name" placeholder="John" required />
+
+                <label for="last_name">Last Name:</label>
+                <input type="text" name="last_name" placeholder="Doe" required />
+            </div>
+            <br />
+
+            <!-- Email address field -->
+            <div>
+                <label for="email_address">Email Address:</label>
+                <input type="email" name="email_address" placeholder="johndoe@gmail.com" required />
+            </div>
+            <br />
+
+            <!-- Phone number field -->
+            <div>
+                <label for="phone_number">Phone Number:</label>
+                <input type="text"
+                       name="phone_number"
+                       placeholder="555-55-55-55"
+                       pattern="\d{3}-\d{2}-\d{2}-\d{2}"
+                       required />
+            </div>
+            <br />
+
+            <!-- Inquirey field -->
+            <div>
+                <textarea name="inquiry"
+                          rows="8"
+                          cols="64"
+                          placeholder="Enter your message here..."
+                          required></textarea>
+            </div>
+            <br />
+
+            <!-- Contact us button -->
+            <input type="submit" value="Contact Us" />
+        </fieldset>
+    </form>
+</body>
+</html>

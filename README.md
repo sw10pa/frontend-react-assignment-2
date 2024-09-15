@@ -1,2 +1,5 @@
-# frontend-react-assignment-2
-This repository contains my second assignment for the Frontend with React course at Tbilisi School of Communication, focusing on HTML fundamentals.
+# Frontend with React - Assignment 2
+
+This repository contains the second assignment for the **Frontend with React** course at the Tbilisi School of Communication. The goal of this assignment is to practice in HTML fundamentals.
+
+## What I Did
